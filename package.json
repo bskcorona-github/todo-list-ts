@@ -1,0 +1,26 @@
+{
+  "name": "todo-list-ts",
+  "version": "1.0.0",
+  "description": "A simple TODO list manager in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "todo": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "todo",
+    "cli",
+    "productivity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
